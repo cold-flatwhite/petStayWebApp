@@ -39,9 +39,11 @@ This repository contains the source code for a web application called "Pet Stay.
 
 ### Backend Setup
 1. Navigate to the server directory: 
+    ```shell
     cd server
 
 2. Install server dependencies:
+    ```shell
     npm install
 
 3. Create a .env file in the server directory and set the following environment variables:
@@ -52,6 +54,7 @@ This repository contains the source code for a web application called "Pet Stay.
     Replace your-mysql-database-url, your-auth0-audience, and your-auth0-issuer with your actual database and Auth0 configuration values.
 
 4. Start the Express server:
+    ```shell
     npm start
 
 ## Usage
