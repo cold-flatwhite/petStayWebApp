@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .supplier-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form-group button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  .form-group button:hover {
+    background-color: #004494;
+  }
+
+  #register {
+    display: block;
+    width: 60%; 
+    margin: 20px auto; 
+    padding: 15px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em; 
+  }
+  
+  #register:hover {
+    background-color: #0056b3; 
+  }
+  
+  .information-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+  }
+  
+  .information-section h2 {
+    color: #007bff; 
+    margin-bottom: 10px;
+  }
+  
+  .information-section ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .information-section li {
+    padding: 5px 0; 
+    border-bottom: 1px solid #eee; 
+  }
+  
+  .information-section li:last-child {
+    border-bottom: none; 
+  }
+
+  @media (max-width: 768px) {
+    .supplier-container {
+      width: 100%; 
+      padding: 10px;
+    }
+  
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+      width: 100%; 
+    }
+  
+    #register {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,131 @@
+.profile-container {
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.user-info,
+.orders {
+  width: 96%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.orders {
+  margin-top: 30px;
+}
+
+.order-list {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.profile-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profiel-button:hover {
+  background-color: darkblue;
+}
+
+
+
+.orders h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.order-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.order-header h3 {
+  margin: 0;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.status.completed {
+  background-color: #28a745; 
+}
+
+.status.pending {
+  background-color: #ffc107; 
+}
+
+.order-details {
+  margin-bottom: 10px;
+}
+
+.order-actions button {
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-actions button:first-child {
+  background-color: #dc3545;
+}
+
+.order-actions button:last-child {
+  background-color: #007bff; 
+}
+
+.order-actions button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .user-info,
+  .orders {
+    width: 100%;
+    padding: 15px; 
+  }
+
+  .profile-container {
+    padding: 10px; 
+  }
+
+  .order-header h3,
+  .orders h2 {
+    font-size: 20px; 
+  }
+}
